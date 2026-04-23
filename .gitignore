@@ -1,0 +1,5 @@
+Api/bin/
+Api/obj/
+Api/wwwroot/
+client/node_modules/
+client/.angular/
