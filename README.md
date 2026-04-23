@@ -7,7 +7,7 @@ Angular frontend served as static files by an ASP.NET Core Web API backend (weat
 1. Build Angular into ASP.NET Core `wwwroot`:
 
 ```bash
-cd /home/runner/work/angular-dot-net/angular-dot-net/client
+cd client
 npm install
 npm run build
 ```
@@ -15,7 +15,7 @@ npm run build
 2. Run the .NET API (which also serves Angular):
 
 ```bash
-cd /home/runner/work/angular-dot-net/angular-dot-net/Api
+cd Api
 dotnet run
 ```
 
